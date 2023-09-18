@@ -1,0 +1,77 @@
+/* Requirement 2: Choose three Google Web Fonts to use */
+
+/* Use Roboto for h1 (title) */
+h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Use Merriweather for main text */
+  main {
+    font-family: 'Merriweather', serif;
+  }
+  
+  /* Use Inconsolata for preformatted text */
+  pre {
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  
+  /* Requirement 3: Pick text and background colours to use */
+  
+  /* Use a dark grey color for text */
+  body {
+    color: #333333;
+  }
+  
+  /* Use a light blue color for the background */
+  body {
+    background-color: #B0E2FF;
+  }
+  
+  /* Use a white color for text in preformatted blocks */
+  pre {
+    color: #FFFFFF;
+  }
+  
+  /* Use a dark blue color for background in preformatted blocks */
+  pre {
+    background-color: #0B1D40;
+  }
+  
+  
+  /* Requirement 4: Improve text's size and readability */
+  
+  /* Make title text 2em (twice the size of the main text) with a line height of 1.2 */
+  h1 {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  
+  /* Make main text 1.2em with a line height of 1.5 and a maximum width of 30em */
+  main {
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 30em;
+    margin: 0 auto; /* Center the text */
+  }
+  
+  
+  /* Requirement 5: Make two additional changes to improve the document's readability */
+  
+  /* Justify text in paragraphs */
+  p {
+    text-align: justify;
+  }
+  
+  /* Add hyphenation for better line breaks in paragraphs */
+  p {
+    hyphens: auto;
+  }
+  
+  /* Style links to make them bold and distinguishable */
+  a {
+    color: #0B1D40;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

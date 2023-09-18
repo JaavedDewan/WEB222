@@ -1,0 +1,50 @@
+<!-- Name:    Jaaved Dewan
+     ID:      126045178
+	 Class:   WEB222
+     Section: NAA
+-->
+<!-- HTML code for a form to reset an account password -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account Reset Form</title>
+	<link rel="stylesheet" href="styles.css"> <!-- Import external stylesheet -->
+</head>
+<body>
+	<div class="container"> <!-- Create a container for the form elements -->
+		<h1>Account Reset Form</h1> <!-- Add a header for the form -->
+		<form action="/s" method="post"> <!-- Create a form with post method and submit to "/s" endpoint -->
+		<!-- Input field for username (email address) -->
+		<div class="form-group">
+			<label for="username">Username (Email Address):</label> <!-- Add label for input field -->
+			<input type="email" id="username" name="username" class="form-control" required autofocus> <!-- Add input field for username and set it as required -->
+		</div>
+
+		<!-- Input field for search query -->
+		<div class="form-group">
+			<label for="search_query">Search Query:</label> <!-- Add label for input field -->
+			<input type="text" id="search_query" name="search_query" class="form-control"> <!-- Add input field for search query -->
+		</div>
+
+		<!-- Select field for resource type -->
+		<div class="form-group">
+			<label for="resource_type">Resource Type:</label> <!-- Add label for select field -->
+			<select id="resource_type" name="resource_type" class="form-control"> <!-- Add select field for resource type -->
+				<option value="book">Book</option> <!-- Add option for book resource type -->
+				<option value="ebook">Ebook</option> <!-- Add option for ebook resource type -->
+				<option value="video">Video</option> <!-- Add option for video resource type -->
+			</select>
+		</div>
+
+		<!-- Checkbox to only show available resources -->
+		<div class="form-check">
+			<input type="checkbox" id="is_available" name="is_available" class="form-check-input" value="true"> <!-- Add checkbox for only available resources -->
+			<label class="form-check-label" for="is_available">Only show available resources</label> <!-- Add label for checkbox -->
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button> <!-- Add submit button for the form -->
+	</form>
+</div>
+
+</body>
+</html>

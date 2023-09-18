@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test 5</title>
+</head>
+<body>
+  <!-- Heading level 1 -->
+  <h1>Test 5: HTML and Media</h1>
+  
+  <!-- Heading level 2 -->
+  <h2>Image</h2>
+  
+  <!-- Figure element containing an image -->
+  <figure1>
+    <!-- Picture element to provide multiple sources for the image -->
+    <picture>
+      <!-- Source element for WebP format -->
+      <source srcset="images/photo-1536604673810-81370412626d.webp" type="image/webp">
+      <!-- Source element for JPEG format -->
+      <source srcset="images/photo-1536604673810-81370412626d.jpeg" type="image/jpeg">
+      <!-- Image element with a fallback source -->
+      <img src="https://unsplash.com/photos/oC66vXsqnc8" alt="Sample image" width="400">
+    </picture>
+    <!-- Figure caption -->
+    <figcaption><a href="https://unsplash.com/photos/oC66vXsqnc8">Different types of media</a> by <a href="https://unsplash.com/@juliusdrost">Julius Drost</a></figcaption>
+  </figure1>
+
+  <!-- Heading level 2 -->
+  <h2>Audio</h2>
+  
+  <!-- Figure element containing an audio file -->
+  <figure2>
+    <!-- Audio element with two source elements for MP3 and Ogg formats -->
+    <audio controls>
+      <source src="https://ia800404.us.archive.org/31/items/naturesounds-soundtheraphy/Relaxing%20Nature%20Sounds%20-%20Trickling%20Stream%20Sounds%20%26%20Birds.mp3" type="audio/mpeg">
+      <source src="https://ia800404.us.archive.org/31/items/naturesounds-soundtheraphy/Relaxing%20Nature%20Sounds%20-%20Trickling%20Stream%20Sounds%20%26%20Birds.ogg" type="audio/ogg">
+    </audio>
+    <!-- Figure caption -->
+    <figcaption><a href="https://archive.org/details/naturesounds-soundtheraphy/">Relaxing Nature Sounds - Trickling Stream Sounds & Birds</a> by <a href="https://archive.org/details/@naturthusiast">@naturthusiast</a></figcaption>
+  </figure2>
+
+  <!-- Heading level 2 -->
+  <h2>Video</h2>
+  
+  <!-- Figure element containing a video file -->
+  <figure3>
+    <!-- Video element with two source elements for MP4 and Ogg formats -->
+    <video width="400" loop muted controls>
+      <source src="https://archive.org/download/LoopableCassetteTape/Cassette%20Tape%20H264-1.ogv" type="video/ogg">
+      <source src="https://archive.org/download/LoopableCassetteTape/Cassette%20Tape%20PhotoJPEG.mp4" type="video/mp4">
+    </video>
+    <!-- Figure caption -->
+    <figcaption><a href="https://archive.org/details/LoopableCassetteTape">Loopable Cassette Tape</a> by <a href="https://archive.org/details/@beachfront_productions">@beachfront_productions</a></figcaption>
+  </figure3>
+</body>
+<!--Footer with my name -->
+<footer>
+  <center><br>By <abbr title="Jaaved Dewan">J.D.</abbr><br><time datetime="2023-02-23">February 23rd 2023</time></center>
+</footer>
+</html>

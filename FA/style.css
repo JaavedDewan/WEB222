@@ -1,0 +1,165 @@
+@font-face {
+    font-family: OldeEnglish;
+    src: url(OldeEnglish.ttf);
+}
+/* Body styles */
+body {
+    margin: 0;
+    font-family: 'MedievalSharp', serif;
+    background-color: white;
+    color: rgb(41, 15, 37);
+    background-image: url('https://www.publicdomainpictures.net/pictures/470000/velka/altes-papier-pergament-hintergrund-16602085209L8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: center;
+    font-family: OldeEnglish;
+    align-items: center;
+    background-image: url('https://e0.pxfuel.com/wallpapers/116/834/desktop-wallpaper-old-paper-by-scroll-paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-size: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: rgb(100, 28, 91);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+main img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+main iframe {
+    margin-bottom: 20px;
+}
+main input {
+    background-image: url('https://www.publicdomainpictures.net/pictures/470000/velka/altes-papier-pergament-hintergrund-16602085209L8.jpg');
+}
+main textarea {
+    background-image: url('https://www.publicdomainpictures.net/pictures/470000/velka/altes-papier-pergament-hintergrund-16602085209L8.jpg');
+}
+/* Footer styles */
+footer {
+
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-image: url('https://www.publicdomainpictures.net/pictures/470000/velka/altes-papier-pergament-hintergrund-16602085209L8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card .date {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .card .rating {
+    margin: 0;
+  }
+  
+  .card .rating span {
+    color:black;
+  }
+  
+  .card p:last-child {
+    margin-bottom: 0;
+  }
+
+  .card img {
+    max-width: 10%;
+    height: auto;
+  }
+  
+  ul li a {
+    color: black;
+
+  }
+  ul li a:hover{
+    color: rgb(100, 28, 91);
+  }
+  
+  
